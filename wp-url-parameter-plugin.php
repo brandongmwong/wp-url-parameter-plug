@@ -8,7 +8,7 @@ add_action('init', 'url_params', 1);
 /*
 */
 function url_params() {
-    $params = array('preview_id', 'preview_nonce', 'preview');
+    $params = array('preview_id', 'preview_nonce', 'preview', 'p', 'page_id');
     set_url_parameter($params);
 }
 
